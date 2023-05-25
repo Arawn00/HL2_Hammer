@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "105"
+	"mapversion" "104"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "105"
+	"mapversion" "104"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5428,7 +5428,7 @@ world
 		side
 		{
 			"id" "1908"
-			"plane" "(1483 1794 -977) (2730 1794 -977) (2730 1794 -327.596)"
+			"plane" "(1483 1794 -977) (3839 1794 -977) (3839 1794 -327.597)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5439,7 +5439,7 @@ world
 		side
 		{
 			"id" "1907"
-			"plane" "(1483 1727 -327.597) (1483 1794 -327.597) (2730 1794 -327.597)"
+			"plane" "(1483 1727 -327.597) (1483 1794 -327.597) (3839 1794 -327.597)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5450,7 +5450,7 @@ world
 		side
 		{
 			"id" "1906"
-			"plane" "(2730 1794 -977) (1483 1794 -977) (1483 1727 -977)"
+			"plane" "(3839 1794 -977) (1483 1794 -977) (1483 1727 -977)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5461,7 +5461,7 @@ world
 		side
 		{
 			"id" "1905"
-			"plane" "(1483 1727 -977) (1483 1794 -977) (1483 1794 -327.598)"
+			"plane" "(1483 1727 -977) (1483 1794 -977) (1483 1794 -327.597)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5472,7 +5472,7 @@ world
 		side
 		{
 			"id" "1904"
-			"plane" "(2730 1794 -327.594) (2730 1794 -977) (2730 1727 -977)"
+			"plane" "(3839 1794 -327.597) (3839 1794 -977) (3839 1727 -977)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5483,7 +5483,7 @@ world
 		side
 		{
 			"id" "1903"
-			"plane" "(2730 1727 -977) (1483 1727 -977) (1483 1727 -327.596)"
+			"plane" "(3839 1727 -977) (1483 1727 -977) (1483 1727 -327.597)"
 			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -11670,158 +11670,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "9653"
-		side
-		{
-			"id" "3336"
-			"plane" "(2778 1792 -738.703) (3774 1792 -738.703) (3774 1792 -89.299)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -80] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3335"
-			"plane" "(2778 1725 -89.3) (2778 1792 -89.3) (3774 1792 -89.3)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -80] 0.25"
-			"vaxis" "[0 -1 0 -8] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3334"
-			"plane" "(3774 1792 -738.703) (2778 1792 -738.703) (2778 1725 -738.703)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -80] 0.25"
-			"vaxis" "[0 -1 0 -8] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3333"
-			"plane" "(2778 1725 -738.703) (2778 1792 -738.703) (2778 1792 -89.3008)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[0 1 0 8] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3332"
-			"plane" "(3774 1792 -89.2969) (3774 1792 -738.703) (3774 1725 -738.703)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[0 1 0 8] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3331"
-			"plane" "(3774 1725 -738.703) (2778 1725 -738.703) (2778 1725 -89.2988)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -80] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 243 208"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9659"
-		side
-		{
-			"id" "3348"
-			"plane" "(2730 1793 -519) (2778 1793 -519) (2778 1793 -430)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -400] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3347"
-			"plane" "(2730 1726 -430) (2730 1793 -430) (2778 1793 -430)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -400] 0.25"
-			"vaxis" "[0 -1 0 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3346"
-			"plane" "(2778 1793 -519) (2730 1793 -519) (2730 1726 -519)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -400] 0.25"
-			"vaxis" "[0 -1 0 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3345"
-			"plane" "(2730 1726 -519) (2730 1793 -519) (2730 1793 -430.001)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[0 1 0 4] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3344"
-			"plane" "(2778 1793 -430) (2778 1793 -519) (2778 1726 -519)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[0 1 0 4] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3343"
-			"plane" "(2778 1726 -519) (2730 1726 -519) (2730 1726 -430)"
-			"material" "DEV/DEV_MEASUREWALL01C"
-			"uaxis" "[1 0 0 -400] 0.25"
-			"vaxis" "[0 0 -1 441.188] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 243 208"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "9239"
@@ -15553,38 +15401,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "9617"
-	"classname" "prop_door_rotating"
-	"ajarangles" "0 0 0"
-	"angles" "0 90.5 0"
-	"axis" "2777 1773 -567.72, 2777 1773 -567.72"
-	"disableshadows" "0"
-	"distance" "90"
-	"dmg" "0"
-	"forceclosed" "0"
-	"hardware" "1"
-	"health" "0"
-	"model" "models/props_c17/door01_left.mdl"
-	"modelscale" "1.0"
-	"opendir" "0"
-	"returndelay" "-1"
-	"skin" "0"
-	"soundmoveoverride" "d1_trainstation_03.breakin_doorkick"
-	"spawnflags" "8192"
-	"spawnpos" "0"
-	"speed" "500"
-	"targetname" "door"
-	"origin" "2777 1773 -567.719"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 cameras
