@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "136"
+	"mapversion" "137"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "136"
+	"mapversion" "137"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15698,6 +15698,7 @@ entity
 	{
 		"OnPressed" "Button_1,SetAnimation,press,0,-1"
 		"OnPressed" "door,Open,,0,-1"
+		"OnPressed" "door,Unlock,,0,-1"
 	}
 	solid
 	{
