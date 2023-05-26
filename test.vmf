@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "137"
+	"mapversion" "138"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "137"
+	"mapversion" "138"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15683,7 +15683,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "3402 898.5 -913"
+	"origin" "3355 899.5 -897"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -15706,10 +15706,10 @@ entity
 		side
 		{
 			"id" "3384"
-			"plane" "(3402 907 -906) (3419 907 -906) (3419 890 -906)"
+			"plane" "(3355 908 -890) (3372 908 -890) (3372 891 -890)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 8] 0.25"
+			"uaxis" "[1 0 0 44] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15717,10 +15717,10 @@ entity
 		side
 		{
 			"id" "3383"
-			"plane" "(3402 890 -920) (3419 890 -920) (3419 907 -920)"
+			"plane" "(3355 891 -904) (3372 891 -904) (3372 908 -904)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 8] 0.25"
+			"uaxis" "[1 0 0 44] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15728,10 +15728,10 @@ entity
 		side
 		{
 			"id" "3382"
-			"plane" "(3402 907 -906) (3402 890 -906) (3402 890 -920)"
+			"plane" "(3355 908 -890) (3355 891 -890) (3355 891 -904)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -8] 0.25"
-			"vaxis" "[0 0 -1 -12] 0.25"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15739,10 +15739,10 @@ entity
 		side
 		{
 			"id" "3381"
-			"plane" "(3419 907 -920) (3419 890 -920) (3419 890 -906)"
+			"plane" "(3372 908 -904) (3372 891 -904) (3372 891 -890)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -8] 0.25"
-			"vaxis" "[0 0 -1 -12] 0.25"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15750,10 +15750,10 @@ entity
 		side
 		{
 			"id" "3380"
-			"plane" "(3419 907 -906) (3402 907 -906) (3402 907 -920)"
+			"plane" "(3372 908 -890) (3355 908 -890) (3355 908 -904)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 -12] 0.25"
+			"uaxis" "[1 0 0 44] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15761,10 +15761,10 @@ entity
 		side
 		{
 			"id" "3379"
-			"plane" "(3419 890 -920) (3402 890 -920) (3402 890 -906)"
+			"plane" "(3372 891 -904) (3355 891 -904) (3355 891 -890)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 -12] 0.25"
+			"uaxis" "[1 0 0 44] 0.25"
+			"vaxis" "[0 0 -1 52] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15816,7 +15816,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "Button_1"
-	"origin" "3413 898 -913"
+	"origin" "3366 898 -898"
 	editor
 	{
 		"color" "220 30 220"
