@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "147"
+	"mapversion" "152"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "147"
+	"mapversion" "152"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14208,7 +14208,7 @@ entity
 {
 	"id" "9773"
 	"classname" "trigger_once"
-	"origin" "-214 1626 -295"
+	"origin" "-32.97 1626 -295"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
@@ -14222,7 +14222,7 @@ entity
 		side
 		{
 			"id" "3372"
-			"plane" "(-274 1671 -235) (-158 1671 -235) (-158 1584 -235)"
+			"plane" "(-274 1584 -235) (-274 1671 -235) (192 1671 -235)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 28] 0.25"
 			"vaxis" "[0 -1 0 -12] 0.25"
@@ -14233,7 +14233,7 @@ entity
 		side
 		{
 			"id" "3371"
-			"plane" "(-274 1584 -355) (-158 1584 -355) (-158 1671 -355)"
+			"plane" "(-274 1671 -355) (-274 1584 -355) (192 1584 -355)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 28] 0.25"
 			"vaxis" "[0 -1 0 -12] 0.25"
@@ -14244,7 +14244,7 @@ entity
 		side
 		{
 			"id" "3370"
-			"plane" "(-274 1671 -235) (-274 1584 -235) (-274 1584 -355)"
+			"plane" "(-274 1584 -355) (-274 1671 -355) (-274 1671 -235)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14255,7 +14255,7 @@ entity
 		side
 		{
 			"id" "3369"
-			"plane" "(-158 1671 -355) (-158 1584 -355) (-158 1584 -235)"
+			"plane" "(192 1671 -355) (192 1584 -355) (192 1584 -235)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14266,7 +14266,7 @@ entity
 		side
 		{
 			"id" "3368"
-			"plane" "(-158 1671 -235) (-274 1671 -235) (-274 1671 -355)"
+			"plane" "(-274 1671 -355) (192 1671 -355) (192 1671 -235)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -14277,7 +14277,7 @@ entity
 		side
 		{
 			"id" "3367"
-			"plane" "(-158 1584 -355) (-274 1584 -355) (-274 1584 -235)"
+			"plane" "(192 1584 -355) (-274 1584 -355) (-274 1584 -235)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15354,6 +15354,58 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "13121"
+	"classname" "env_sun"
+	"angles" "0 0 0"
+	"HDRColorScale" "1.0"
+	"material" "sprites/light_glow02_add_noz"
+	"overlaycolor" "0 0 0"
+	"overlaymaterial" "sprites/light_glow02_add_noz"
+	"overlaysize" "-1"
+	"pitch" "0"
+	"rendercolor" "255 255 0"
+	"size" "32"
+	"use_angles" "0"
+	"origin" "178.31 2112 -192"
+	editor
+	{
+		"color" "255 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "13180"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"style" "0"
+	"origin" "3136 1216 -768"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
