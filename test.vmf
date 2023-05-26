@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "118"
+	"mapversion" "120"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "118"
+	"mapversion" "120"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12434,12 +12434,12 @@ entity
 {
 	"id" "2213"
 	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
+	"additionalequipment" "weapon_stunstick"
 	"angles" "0 188 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
+	"ignoreunseenenemies" "1"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "0"
 	"physdamagescale" "1.0"
@@ -12455,7 +12455,7 @@ entity
 	"waitingtorappel" "No"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "2468 1063 -952"
+	"origin" "2468 1132 -954"
 	editor
 	{
 		"color" "0 200 200"
@@ -14536,62 +14536,6 @@ entity
 }
 entity
 {
-	"id" "6707"
-	"classname" "weapon_shotgun"
-	"angles" "0 270.5 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "2603.12 1442.13 -934.846"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "6716"
-	"classname" "item_box_buckshot"
-	"angles" "0 270.5 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "2633.56 1446.69 -929.627"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "6725"
-	"classname" "item_box_buckshot"
-	"angles" "0 270.5 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "2654.16 1448.92 -938.706"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "6729"
 	"classname" "item_box_buckshot"
 	"angles" "0 270.5 0"
@@ -14600,7 +14544,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"spawnflags" "0"
-	"origin" "2661.42 1422.01 -938.706"
+	"origin" "2491 1146 -953"
 	editor
 	{
 		"color" "0 0 200"
@@ -15540,6 +15484,43 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "10177"
+	"classname" "weapon_shotgun"
+	"angles" "66 270 -90"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "2473.35 1150 -939"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "10211"
+	"classname" "item_box_buckshot"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "2480.86 1148 -952"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
 	}
 }
 cameras
