@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "134"
+	"mapversion" "136"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "134"
+	"mapversion" "136"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15570,47 +15570,6 @@ entity
 }
 entity
 {
-	"id" "10767"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_lab/keypad.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "Button_Armory"
-	connections
-	{
-		"OnAnimationBegun" "door,Unlock,,0,-1"
-	}
-	"origin" "3361 895 -895"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "10211"
 	"classname" "item_box_buckshot"
 	"angles" "0 0 0"
@@ -15724,7 +15683,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "3367 895 -894"
+	"origin" "3402 898.5 -913"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -15737,7 +15696,7 @@ entity
 	"wait" "0.1"
 	connections
 	{
-		"OnPressed" "Button_Armory,SetAnimation,press,0,-1"
+		"OnPressed" "Button_1,SetAnimation,press,0,-1"
 		"OnPressed" "door,Open,,0,-1"
 	}
 	solid
@@ -15746,10 +15705,10 @@ entity
 		side
 		{
 			"id" "3384"
-			"plane" "(3367 902 -887) (3383 902 -887) (3383 888 -887)"
+			"plane" "(3402 907 -906) (3419 907 -906) (3419 890 -906)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15757,10 +15716,10 @@ entity
 		side
 		{
 			"id" "3383"
-			"plane" "(3367 888 -901) (3383 888 -901) (3383 902 -901)"
+			"plane" "(3402 890 -920) (3419 890 -920) (3419 907 -920)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15768,10 +15727,10 @@ entity
 		side
 		{
 			"id" "3382"
-			"plane" "(3367 902 -887) (3367 888 -887) (3367 888 -901)"
+			"plane" "(3402 907 -906) (3402 890 -906) (3402 890 -920)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[0 1 0 -8] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15779,10 +15738,10 @@ entity
 		side
 		{
 			"id" "3381"
-			"plane" "(3383 902 -901) (3383 888 -901) (3383 888 -887)"
+			"plane" "(3419 907 -920) (3419 890 -920) (3419 890 -906)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[0 1 0 -8] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15790,10 +15749,10 @@ entity
 		side
 		{
 			"id" "3380"
-			"plane" "(3383 902 -887) (3367 902 -887) (3367 902 -901)"
+			"plane" "(3419 907 -906) (3402 907 -906) (3402 907 -920)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15801,10 +15760,10 @@ entity
 		side
 		{
 			"id" "3379"
-			"plane" "(3383 888 -901) (3367 888 -901) (3367 888 -887)"
+			"plane" "(3419 890 -920) (3402 890 -920) (3402 890 -906)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15853,7 +15812,9 @@ entity
 	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
 	"StartDisabled" "0"
+	"targetname" "Button_1"
 	"origin" "3413 898 -913"
 	editor
 	{
