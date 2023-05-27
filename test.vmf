@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "179"
+	"mapversion" "182"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "179"
+	"mapversion" "182"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2464,7 +2464,7 @@ world
 		side
 		{
 			"id" "684"
-			"plane" "(-1038 2233 -61) (-1294 2231.89 -61) (-1289.54 1977 -61)"
+			"plane" "(-1038.01 2233 -61) (-1294 2231.89 -61) (-1289.54 1977 -61)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[0.00872656 -1 0 152.974] 0.25"
 			"vaxis" "[-1 -0.00872656 0 -480.933] 0.25"
@@ -13976,16 +13976,16 @@ entity
 {
 	"id" "9812"
 	"classname" "env_fire"
-	"damagescale" "1.0"
+	"damagescale" "0"
 	"fireattack" "4"
 	"firesize" "200"
 	"firetype" "0"
 	"health" "30"
 	"ignitionpoint" "32"
-	"spawnflags" "25"
+	"spawnflags" "24"
 	"StartDisabled" "0"
 	"targetname" "Fire_car"
-	"origin" "247 1708 -340"
+	"origin" "299 1711 -338"
 	editor
 	{
 		"color" "0 180 0"
@@ -15761,6 +15761,102 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "15710"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "500"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "244 244 223 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "270"
+	"style" "0"
+	"origin" "-239 608.355 381"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15715"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "500"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "244 244 223 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "270"
+	"style" "0"
+	"origin" "-856.514 501.464 381"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15720"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "500"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "244 244 223 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "270"
+	"style" "0"
+	"origin" "-1170.52 1041.13 381"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15746"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "500"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "244 244 223 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "270"
+	"style" "0"
+	"origin" "-1161 2055.98 114"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
