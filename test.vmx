@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "209"
+	"mapversion" "212"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "209"
+	"mapversion" "212"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11974,7 +11974,7 @@ entity
 	"waitingtorappel" "No"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "2709 1126 -954"
+	"origin" "2469 1120 -954"
 	editor
 	{
 		"color" "0 200 200"
@@ -17453,81 +17453,98 @@ entity
 }
 entity
 {
-	"id" "18550"
+	"id" "19444"
+	"classname" "ai_goal_actbusy"
+	"actor" "guardPrison"
+	"busysearchrange" "2048"
+	"seeentitytimeout" "1"
+	"StartActive" "1"
+	"targetname" "test"
+	"origin" "2389.99 1109.47 -944"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19462"
 	"classname" "trigger_once"
-	"origin" "2585.43 1418.35 -903"
+	"origin" "2598 1444 -925"
 	"spawnflags" "1"
 	"StartDisabled" "0"
-	"targetname" "trigger_dk"
 	connections
 	{
-		"OnTrigger" "goalassaut2,BeginAssault,,0,-1"
+		"OnTrigger" "test,ForceNPCToActBusy,,0,-1"
 	}
 	solid
 	{
-		"id" "18551"
+		"id" "19456"
 		side
 		{
-			"id" "3750"
-			"plane" "(2692.55 1462.29 -867) (2693.3 1376.29 -867) (2478.31 1374.41 -867)"
+			"id" "3762"
+			"plane" "(2495 1455 -917) (2699 1455 -917) (2699 1433 -917)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0.00872656 -1 0 18.9336] 0.25"
-			"vaxis" "[-1 -0.00872656 0 52.8257] 0.25"
+			"uaxis" "[1 0 0 -40] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "3749"
-			"plane" "(2477.56 1460.41 -939) (2478.31 1374.41 -939) (2693.3 1376.29 -939)"
+			"id" "3761"
+			"plane" "(2495 1433 -933) (2699 1433 -933) (2699 1455 -933)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0.00872656 -1 0 18.9336] 0.25"
-			"vaxis" "[-1 -0.00872656 0 52.8257] 0.25"
+			"uaxis" "[1 0 0 -40] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "3748"
-			"plane" "(2692.55 1462.29 -867) (2477.56 1460.41 -867) (2477.56 1460.41 -939)"
+			"id" "3760"
+			"plane" "(2495 1455 -917) (2495 1433 -917) (2495 1433 -933)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0.00872656 0 -52.8257] 0.25"
-			"vaxis" "[0 0 -1 -48] 0.25"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "3747"
-			"plane" "(2693.3 1376.29 -939) (2478.31 1374.41 -939) (2478.31 1374.41 -867)"
+			"id" "3759"
+			"plane" "(2699 1455 -933) (2699 1433 -933) (2699 1433 -917)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0.00872656 0 -52.8257] 0.25"
-			"vaxis" "[0 0 -1 -48] 0.25"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "3746"
-			"plane" "(2693.3 1376.29 -867) (2692.55 1462.29 -867) (2692.55 1462.29 -939)"
+			"id" "3758"
+			"plane" "(2699 1455 -917) (2495 1455 -917) (2495 1455 -933)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0.00872656 -1 0 18.9336] 0.25"
-			"vaxis" "[0 0 -1 -48] 0.25"
+			"uaxis" "[1 0 0 -40] 0.25"
+			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "3745"
-			"plane" "(2478.31 1374.41 -939) (2477.56 1460.41 -939) (2477.56 1460.41 -867)"
+			"id" "3757"
+			"plane" "(2699 1433 -933) (2495 1433 -933) (2495 1433 -917)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0.00872656 -1 0 18.9336] 0.25"
-			"vaxis" "[0 0 -1 -48] 0.25"
+			"uaxis" "[1 0 0 -40] 0.25"
+			"vaxis" "[0 0 -1 12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -17539,71 +17556,6 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "18796"
-	"classname" "ai_goal_assault"
-	"actor" "Armoryguard"
-	"AssaultCue" "1"
-	"rallypoint" "rallly2"
-	"RallySelectMethod" "0"
-	"SearchType" "0"
-	"StartActive" "1"
-	"targetname" "goalAssaut2"
-	"origin" "634.389 1058.67 -604.998"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "18806"
-	"classname" "assault_rallypoint"
-	"angles" "0 0 0"
-	"assaultdelay" "0"
-	"assaultpoint" "assaut2"
-	"forcecrouch" "0"
-	"priority" "1"
-	"targetname" "rallly2"
-	"urgent" "0"
-	"origin" "653.667 1079.43 -604.998"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "18863"
-	"classname" "assault_assaultpoint"
-	"allowdiversion" "0"
-	"allowdiversionradius" "0"
-	"angles" "0 0 0"
-	"assaulttimeout" "3.0"
-	"assaulttolerance" "36"
-	"clearoncontact" "0"
-	"forcecrouch" "0"
-	"nevertimeout" "0"
-	"spawnflags" "0"
-	"strict" "0"
-	"targetname" "assaut2"
-	"urgent" "0"
-	"origin" "988.875 1140.26 -679.621"
 	editor
 	{
 		"color" "220 30 220"
