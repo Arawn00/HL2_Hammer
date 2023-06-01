@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "208"
+	"mapversion" "209"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "208"
+	"mapversion" "209"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9978,82 +9978,6 @@ world
 		editor
 		{
 			"color" "0 109 230"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9572"
-		side
-		{
-			"id" "3324"
-			"plane" "(-108.005 1241 -368.41) (-280.461 1238.82 -369.411) (-277.451 739.984 -599)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[-0.00904713 0.957827 0.287334 212.296] 0.25"
-			"vaxis" "[1 0.00806223 0.00241857 53.2038] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3323"
-			"plane" "(-105 734.174 -576.59) (-105 742.156 -598) (-277.445 739.982 -599)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[0.00878757 -1 -0.00391321 -233.799] 0.25"
-			"vaxis" "[-0.359526 0 -0.933135 -314.973] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3322"
-			"plane" "(-280.461 1230.84 -348) (-280.461 1238.82 -369.415) (-108.005 1241 -368.414)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[0.00878757 -1 -0.00391321 -233.799] 0.25"
-			"vaxis" "[-0.359526 0 -0.933135 -314.973] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3321"
-			"plane" "(-277.45 732 -577.586) (-277.45 739.984 -599) (-280.461 1238.82 -369.415)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[-0.00363337 0.923887 0.382686 365.872] 0.25"
-			"vaxis" "[0 0.382683 -0.92388 -24.8561] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3320"
-			"plane" "(-108.005 1233.02 -347) (-108.005 1241 -368.41) (-105.001 742.16 -598)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[-0.00363337 0.923887 0.382686 365.872] 0.25"
-			"vaxis" "[0 0.382683 -0.92388 -24.8561] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3319"
-			"plane" "(-280.461 1230.84 -348) (-108.005 1233.02 -347) (-105 734.174 -576.588)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[-0.00904713 0.957827 0.287334 212.296] 0.25"
-			"vaxis" "[1 0.00806223 0.00241857 53.2038] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 125 202"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
