@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "209"
+	"mapversion" "210"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "209"
+	"mapversion" "210"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -17545,71 +17545,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "18796"
-	"classname" "ai_goal_assault"
-	"actor" "Armoryguard"
-	"AssaultCue" "1"
-	"rallypoint" "rallly2"
-	"RallySelectMethod" "0"
-	"SearchType" "0"
-	"StartActive" "1"
-	"targetname" "goalAssaut2"
-	"origin" "634.389 1058.67 -604.998"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "18806"
-	"classname" "assault_rallypoint"
-	"angles" "0 0 0"
-	"assaultdelay" "0"
-	"assaultpoint" "assaut2"
-	"forcecrouch" "0"
-	"priority" "1"
-	"targetname" "rallly2"
-	"urgent" "0"
-	"origin" "653.667 1079.43 -604.998"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "18863"
-	"classname" "assault_assaultpoint"
-	"allowdiversion" "0"
-	"allowdiversionradius" "0"
-	"angles" "0 0 0"
-	"assaulttimeout" "3.0"
-	"assaulttolerance" "36"
-	"clearoncontact" "0"
-	"forcecrouch" "0"
-	"nevertimeout" "0"
-	"spawnflags" "0"
-	"strict" "0"
-	"targetname" "assaut2"
-	"urgent" "0"
-	"origin" "988.875 1140.26 -679.621"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
 	}
 }
 cameras
