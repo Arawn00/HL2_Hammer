@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "5"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "9"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "2"
@@ -1661,10 +1661,11 @@ entity
 {
 	"id" "351"
 	"classname" "func_useableladder"
-	"origin" "1111 33 131"
-	"point0" "1111 33 131"
-	"point1" "1111 33 131"
-	"origin" "1111 33 167"
+	"origin" "1106 41 506"
+	"point0" "1106 41 506"
+	"point1" "1111 41 128"
+	"targetname" "ladder"
+	"origin" "1111 38 164"
 	editor
 	{
 		"color" "220 30 220"
@@ -1728,6 +1729,62 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "505"
+	"classname" "info_ladder_dismount"
+	"target" "ladder"
+	"origin" "1072 24 512"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "523"
+	"classname" "info_ladder_dismount"
+	"target" "ladder"
+	"origin" "1141.95 34.4054 128"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "525"
+	"classname" "info_ladder_dismount"
+	"target" "ladder"
+	"origin" "1110.87 68.7687 128"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "527"
+	"classname" "info_ladder_dismount"
+	"target" "ladder"
+	"origin" "1078 32 128"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
