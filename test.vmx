@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "194"
+	"mapversion" "195"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "194"
+	"mapversion" "195"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5353,7 +5353,7 @@ world
 		{
 			"id" "1914"
 			"plane" "(3849 409 -977) (1483 409 -977) (1483 409 -327.597)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5364,7 +5364,7 @@ world
 		{
 			"id" "1913"
 			"plane" "(3849 409 -327.597) (1483 409 -327.597) (1483 475 -327.597)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5375,7 +5375,7 @@ world
 		{
 			"id" "1912"
 			"plane" "(1483 475 -977) (1483 409 -977) (3849 409 -977)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5386,7 +5386,7 @@ world
 		{
 			"id" "1911"
 			"plane" "(1483 409 -327.597) (1483 409 -977) (1483 475 -977)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5397,7 +5397,7 @@ world
 		{
 			"id" "1910"
 			"plane" "(3849 475 -977) (3849 409 -977) (3849 409 -327.597)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5408,7 +5408,7 @@ world
 		{
 			"id" "1909"
 			"plane" "(1483 475 -977) (3849 475 -977) (3849 475 -327.597)"
-			"material" "DEV/DEV_MEASUREWALL01C"
+			"material" "HALFLIFE/LAB1_W6A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
